@@ -1,0 +1,46 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.App-header{
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  background-color: #DFE1EB;
+}
+
+.ant-table-tbody{
+  background-color: #F8F8FB;
+  color: #6c707b;
+}
+
+.react-resizable-handle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 4px;
+  cursor: col-resize;
+  z-index: 1;
+  background-color: #F8F8FB;
+}
+
+.react-resizable-handle:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.custom-search {
+  padding: 20px 200px;
+  
+}
+
+.custom-search input {
+  border: 1px solid #A6ACBE;
+}
+
+.custom-search button{
+  background-color: #fff;
+  color:#A6ACBE;
+  border: 1px solid #A6ACBE;
+}
